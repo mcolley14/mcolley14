@@ -1,0 +1,237 @@
+/*
+
+   Fit for You Stylesheet
+   Author: Matthew Colley
+   Date:   June 29, 2021
+
+   Filename: fit_styles.css
+
+*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Index Styles */
+
+/* Navigation bar at the top of the site */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #303030;
+  font-family:'Rokkitt', sans-serif;
+}
+
+.logo{
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+
+
+.logo h4 a:hover{
+  color: #ffcc5f;
+}
+
+.nav_links{
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  padding-right: 15px;
+}
+
+.nav_links a{
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+/* Hover over selections changes color of selection */
+.nav_links a:hover { 
+  color: #ffcc5f;
+}
+
+/* ---------- Main body Styles ---------- */
+
+/* Trainer 1 Styles*/
+
+.trainer1{
+  background-color: #141414;
+}
+
+.trainer1_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #141414;
+  max-width: 1300px;
+  width: 100%;
+  z-index: 1;
+  padding: 0 50px;
+}
+
+.trainer1_content h1{
+  font-size: 32px;
+  line-height: 36px;
+  background-color: #ffcc5f;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  moz-text-fill-color: transparent;
+}
+
+.trainer1_content h2{
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #FFCC6f;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  moz-text-fill-color: transparent;
+}
+
+.trainer1_content p{
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 0px 0px 0px 5px;
+}
+
+.trainer1_container img{
+  height: 80%;
+  width: 80%;
+  
+}
+
+/* Trainer 2 Styles */
+
+.trainer2{
+  background-color: #141414;
+}
+
+.trainer2_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #141414;
+  max-width: 1300px;
+  width: 100%;
+  z-index: 1;
+  padding: 0 50px;
+}
+
+.trainer2_container > img {
+  height: 80%;
+  width: 90%;
+}
+
+.trainer2_content h1{
+  font-size: 32px;
+  line-height: 36px;
+  background-color: #ffcc5f;
+  color: #ffcc5f;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  moz-text-fill-color: transparent;
+}
+
+.trainer2_content h2{
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #FFCC6f;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  moz-text-fill-color: transparent;
+}
+
+.trainer2_content p{
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+/* Footer styles */
+hr.footer_div{
+  border-top: 1px solid #ffffff;
+}
+
+footer{
+  background-color: #141414;
+}
+
+footer address{
+  background-color: #141414;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+/* Events Styles */
+
+table.schedule{
+  background-color: #141414;
+  width: 100%;
+}
+
+th{
+  color:#ffcc5f  
+}
+
+tr, td{
+  color: #ffffff;
+  text-align:center;
+}
+table.schedule thead{
+  background-color: #303030;
+  color: #ffffff;
+}
+
+table.schedule thead tr{
+  height: 30px;
+}
+
+table.schedule tbody tr{
+  height: 40px;
+}
+
+table.schedule > tbody{
+  background-color: #303030;
+}
+
+table.schedule > tfoot{
+  text-align: right;
+}
+
+col#firstCol{
+  background: #303030;
+  width: 20%;
+}
+
+col#dayCol{
+  background: #1a1a1a;
+  width: 12%;
+}

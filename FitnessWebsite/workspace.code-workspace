@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "Chapter 3 Review Good for Grids",
+			"path": "../Good Reference Material for Project/Chapter 3 Review Good for Grids"
+		},
+		{
+			"name": "tutorial",
+			"path": "../COMP 2681 Data Files/html02/tutorial"
+		},
+		{
+			"name": "tutorial",
+			"path": "../COMP 2681 Data Files/html01/tutorial"
+		},
+		{
+			"name": "FitnessWebsite",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FitnessWebsite"
+	}
+}

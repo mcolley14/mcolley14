@@ -1,0 +1,96 @@
+<!--
+      Fitness Website Project
+      Version 1
+
+      Author: Matt Colley
+      Date: Oct 10, 2021
+
+      Filename: fit_events.html
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fit_specifics.css">
+  <link rel="stylesheet" href="fit_styles.css">
+  <link rel="stylesheet" href="fit_designs.css">
+  <title>Fit For You Events</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <h4><a href="#">Fit For You</a></h4>
+    </div>
+    <ul class="nav_links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Workouts</a></li>
+      <li><a href="#">Diets</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="fit_events.html">Events</a></li>    
+    </ul>
+  </nav>
+
+  <table class="schedule">
+    <colgroup>
+      <col id="firstCol"/>
+      <col id="dayCol" span="6"/>
+      <col id="lastCol"/>
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Mon</th>
+        <th>Tues</th>
+        <th>Wed</th>
+        <th>Thurs</th>
+        <th>Fri</th>
+        <th>Sat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>8:00 AM</th>
+        <td colspan="6" rowspan="2">Open Gym</td>
+      </tr>
+      <tr>
+        <th>9:00 AM</th>
+      </tr>
+      <tr>
+        <th>10:00 AM</th>
+        <td colspan="6" rowspan="2">Personal Training</td>
+      </tr>
+      <tr>
+        <th>11:00 AM</th>
+      </tr>
+      <tr>
+        <th>12:00 PM</th>
+        <td colspan="6" rowspan="2">Yoga Instruction</td>
+      </tr>
+      <tr>
+        <th>1:00 PM</th>
+      </tr>
+      <tr>
+        <th>2:00 PM</th>
+        <td colspan ="6">Open Gym</td>
+      </tr>
+      <tr>
+        <th>3:00 PM</th>
+        <td colspan="6" rowspan="2">Personal Training</td>
+      </tr>
+      <tr>
+        <th>4:00 PM</th>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="8"> Fit for you Events schedule!</td>
+      </tr>
+    </tfoot>
+  </table>
+  
+</body>
+</html>
